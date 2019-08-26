@@ -177,7 +177,7 @@ HHChannel2D
 
    .. py:attribute:: instant
 
-      int (*value field*)      Bitmapped flag: bit 0 = Xgate, bit 1 = Ygate, bit 2 = ZgateWhen true, specifies that the lookup table value should beused directly as the state of the channel, rather than usedas a rate term for numerical integration for the state
+      int (*value field*)      Bitmapped flag: bit 0 = Xgate, bit 1 = Ygate, bit 2 = ZgateWhen true, specifies that the lookup table value should be used directly as the state of the channel, rather than used as a rate term for numerical integration for the state. The state is set directly to A/B for that gate.
 
 
    .. py:attribute:: X
