@@ -147,17 +147,17 @@ HHChannel2D
 
    .. py:attribute:: Xindex
 
-      string (*value field*)      String for setting X index.
+      string (*value field*)      String for setting X index. Can take 'VOLT_INDEX', 'C1_INDEX', 'C2_INDEX', 'DOMAIN_INDEX', 'VOLT_C1_INDEX', 'VOLT_C2_INDEX', 'VOLT_DOMAIN_INDEX', 'C1_C2_INDEX', and 'DOMAIN_C2_INDEX' as values.
 
 
    .. py:attribute:: Yindex
 
-      string (*value field*)      String for setting Y index.
+      string (*value field*)      String for setting Y index. Can take 'VOLT_INDEX', 'C1_INDEX', 'C2_INDEX', 'DOMAIN_INDEX', 'VOLT_C1_INDEX', 'VOLT_C2_INDEX', 'VOLT_DOMAIN_INDEX', 'C1_C2_INDEX', and 'DOMAIN_C2_INDEX' as values.
 
 
    .. py:attribute:: Zindex
 
-      string (*value field*)      String for setting Z index.
+      string (*value field*)      String for setting Z index. Can take 'VOLT_INDEX', 'C1_INDEX', 'C2_INDEX', 'DOMAIN_INDEX', 'VOLT_C1_INDEX', 'VOLT_C2_INDEX', 'VOLT_DOMAIN_INDEX', 'C1_C2_INDEX', and 'DOMAIN_C2_INDEX' as values.
 
 
    .. py:attribute:: Xpower
@@ -177,7 +177,7 @@ HHChannel2D
 
    .. py:attribute:: instant
 
-      int (*value field*)      Bitmapped flag: bit 0 = Xgate, bit 1 = Ygate, bit 2 = ZgateWhen true, specifies that the lookup table value should beused directly as the state of the channel, rather than usedas a rate term for numerical integration for the state
+      int (*value field*)      Bitmapped flag: bit 0 = Xgate, bit 1 = Ygate, bit 2 = ZgateWhen true, specifies that the lookup table value should beused directly as the state of the channel, rather than usedas a rate term for numerical integration for the state. The state is set directly to A/B for that gate.
 
 
    .. py:attribute:: X
